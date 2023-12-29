@@ -54,6 +54,6 @@ let rate = data[toCurr.value.toLowerCase()]
 let finalAmount = rate * amountValue
 
 msg.innerText = `${amountValue} ${fromCurr.value} = ${finalAmount} ${toCurr.value} `
-msg.style.backgroundColor = 'aquamarine'
+msg.style.backgroundColor = 'lavender'
 
 })
